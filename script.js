@@ -1,7 +1,7 @@
 $(function(){
 
-  $(".menu-button").click( function(){
-    $(".menu-list").toggleClass('isOpen');
+  $(".navButton").click( function(){
+      $(".menu").toggleClass('isOpen');
   });
 
 });
