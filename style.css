@@ -28,25 +28,24 @@ h1 {
   color: white;
 }
 
-.menu {
-  width: 100%;
-}
-
-.menu-button {
+.navButton {
   position: absolute;
   top: 2rem;
   right: 2rem;
-  z-index: 999;
 }
 
-.menu-button a {
+.navButton a {
   color: #FFF;
   font-size: 1.25rem;
 }
 
-.menu-list {
+nav {
+  position: relative;
+}
+
+.menu {
   position: absolute;
-  top: 6rem;
+  top: 0;
   left: 0;
   width: 100%;
   background-color: rgba(64,64,64,.7);
@@ -54,31 +53,31 @@ h1 {
   display: none;
 }
 
-.menu-list.isOpen {
+.menu.isOpen {
   display: block;
 }
 
-.menu-list li {
+.menu li {
   height: 3rem;
   border-bottom: solid 1px #AAA;
 }
 
-.menu-list a {
+.menu a {
   display: block;
   padding: 0.75rem;
   text-align: center;
   color: #FFF;
 }
 
-.menu-list a:hover {
+.menu a:hover {
   background-color: #333;
 }
 
-main {
+article {
   padding: 3rem;
 }
 
-main p {
+article p {
   text-align: justify;
   color: #555;
 }
